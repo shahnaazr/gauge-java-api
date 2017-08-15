@@ -121,7 +121,7 @@ for POST /gateway_timeout returns a 503 gateway_timeout status code\
 \b0\fs32 \cf2 The testers have worked on some API tests in Gauge using Java however, they haven\'92t yet finished them and some are failing. Help the testers out by fixing their broken tests and adding any missing steps. Is there anything that can be improved in the tests? Now is the time to make the tests shine!\
 \
 \pard\pardeftab720\partightenfactor0
-\cf4 Shahnaaz: Added missing implementation. Further tests can be added to verify content types, full/partial content validation. There are no tests for verifying how the app behaves when the server is down, or when user uses incorrect request body or when the needed headers are missing etc. methods with annotations @Before suite and @after suites etc can be used to setting up and tearing data. Not added more tests due to lack of time.\
+\cf4 Shahnaaz: Added missing implementation. Further tests can be added to verify content types, headers, full/partial content validation, schema validation, response returned with expected time, functional tests. There are no tests for verifying how the app behaves when the server is down, or when user uses incorrect request body or when the needed headers are missing etc. methods with annotations @Before suite and @after suites etc can be used to setting up and tearing data. Not added more tests due to lack of time.\
 \pard\pardeftab720\partightenfactor0
 
 \b\fs48 \cf3 \
