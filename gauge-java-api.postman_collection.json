@@ -1,0 +1,285 @@
+{
+	"variables": [],
+	"info": {
+		"name": "gauge-java-api",
+		"_postman_id": "05dfc5f8-037b-55e3-f43e-8ec6c3cfaea6",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "madeup",
+			"request": {
+				"url": "{{url}}:{{port}}/madeup",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "internal_server_error",
+			"request": {
+				"url": "{{url}}:{{port}}/internal_server_error",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "internal_server_error",
+			"request": {
+				"url": "{{url}}:{{port}}/internal_server_error",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/vnd.json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"test\": 123}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "internal_server_error/last",
+			"request": {
+				"url": "{{url}}:{{port}}/internal_server_error/last",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "unauthorized",
+			"request": {
+				"url": "{{url}}:{{port}}/unauthorized",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "unauthorized",
+			"request": {
+				"url": "{{url}}:{{port}}/unauthorized",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/vnd.json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"test\": 123}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "unauthorized/last",
+			"request": {
+				"url": "{{url}}:{{port}}/unauthorized/last",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "no_response",
+			"request": {
+				"url": "{{url}}:{{port}}/no_response",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "no_response",
+			"request": {
+				"url": "{{url}}:{{port}}/no_response",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/vnd.json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"test\": 123}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "no_response/last",
+			"request": {
+				"url": "{{url}}:{{port}}/no_response/last",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "bad_request",
+			"request": {
+				"url": "{{url}}:{{port}}/bad_request",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "bad_request",
+			"request": {
+				"url": "{{url}}:{{port}}/bad_request",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/vnd.json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"test\": 123}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "bad_request/last",
+			"request": {
+				"url": "{{url}}:{{port}}/bad_request/last",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "forbidden",
+			"request": {
+				"url": "{{url}}:{{port}}/forbidden",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "forbidden",
+			"request": {
+				"url": "{{url}}:{{port}}/forbidden",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/vnd.json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"test\": 123}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "forbidden/last",
+			"request": {
+				"url": "{{url}}:{{port}}/forbidden/last",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "gateway_timeout",
+			"request": {
+				"url": "{{url}}:{{port}}/gateway_timeout",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "gateway_timeout",
+			"request": {
+				"url": "{{url}}:{{port}}/gateway_timeout",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/vnd.json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"test\": 123}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "gateway_timeout/last",
+			"request": {
+				"url": "{{url}}:{{port}}/gateway_timeout/last",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "manage/health",
+			"request": {
+				"url": "{{url}}:{{port}}/manage/health",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
